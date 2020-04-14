@@ -16,8 +16,8 @@ const db = knex({
   }
 });
 
-const bcrypt = require('bcrypt');
-const saltRounds = 10;
+const bcrypt = require('bcryptjs');
+const salt = bcrypt.genSaltSync(10);
 
 const app = express();
 app.use(cors());
@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 
 app.get('/', (req, res)=>{res.send("IT IS WORKING")})
 app.post('/signin', (req,res) => {signin.handleSignin(req, res, db, bcrypt)})
-app.post('/register', (req, res) => {register.handleRegister(req, res, db, bcrypt, saltRounds)})
+app.post('/register', (req, res) => {register.handleRegister(req, res, db, bcrypt, salt)})
 app.get('/profile/:id', (req,res) => {profile.handleProfile(req, res, db)})
 app.put('/image', (req, res) => {image.handleImage(req,res,db)})
 app.post('/imageurl', (req, res) => {image.handleApiCall(req,res)})
