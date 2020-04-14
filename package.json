@@ -2,6 +2,9 @@
   "name": "smart-brain-api",
   "version": "1.0.0",
   "description": "",
+  "engines": { 
+      "node": "^12.16.1" 
+   },
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
