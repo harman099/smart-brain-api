@@ -23,5 +23,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harman099/smart-brain-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harman099/smart-brain-api/issues"
+  },
+  "homepage": "https://github.com/harman099/smart-brain-api#readme"
 }
