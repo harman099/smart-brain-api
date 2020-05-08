@@ -1,35 +1,35 @@
 {
-  "name": "smart-brain-api",
-  "version": "1.0.0",
-  "description": "",
-  "engines": {
-    "node": "^12.16.1"
-  },
-  "main": "index.js",
-  "scripts": {
-    "start": "node server.js",
-    "start:dev": "nodemon server.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.19.0",
-    "clarifai": "^2.9.1",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "knex": "^0.20.13",
-    "pg": "^8.0.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/harman099/smart-brain-api.git"
-  },
-  "bugs": {
-    "url": "https://github.com/harman099/smart-brain-api/issues"
-  },
-  "homepage": "https://github.com/harman099/smart-brain-api#readme"
+	"name": "smart-brain-api",
+	"version": "1.0.0",
+	"description": "",
+	"engines": {
+		"node": "^12.16.1"
+	},
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon server.js",
+		"start:dev": "nodemon server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.19.0",
+		"clarifai": "^2.9.1",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"knex": "^0.20.13",
+		"pg": "^8.0.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/harman099/smart-brain-api.git"
+	},
+	"bugs": {
+		"url": "https://github.com/harman099/smart-brain-api/issues"
+	},
+	"homepage": "https://github.com/harman099/smart-brain-api#readme"
 }
