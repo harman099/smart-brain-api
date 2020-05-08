@@ -18,8 +18,8 @@
 		"clarifai": "^2.9.1",
 		"cors": "^2.8.5",
 		"express": "^4.17.1",
-		"knex": "^0.20.15",
-		"pg": "^8.0.2"
+		"knex": "^0.21.1",
+		"pg": "^8.0.3"
 	},
 	"devDependencies": {
 		"nodemon": "^2.0.3"
