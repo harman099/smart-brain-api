@@ -31,4 +31,4 @@ const handleRegister = (req, res, db, bcrypt, salt) => {
 		.catch((err) => res.status(400).json('UNABLE TO REGISTER'));
 };
 
-export const handleRegister = handleRegister;
+module.exports = { handleRegister: handleRegister };
